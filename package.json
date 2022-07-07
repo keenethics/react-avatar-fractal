@@ -1,7 +1,7 @@
 {
   "name": "react-avatar-fractal",
-  "version": "1.0.0",
-  "description": "generates fractal from string(user name, email, nickname, etc..) that can be used as avatar",
+  "version": "1.0.1",
+  "description": "Generates fractal from string(user name, email, nickname, etc..) that can be used as avatar",
   "author": "dikhtenkott",
   "license": "MIT",
   "repository": "keenethics/react-avatar-fractal",
