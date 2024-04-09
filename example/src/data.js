@@ -1,4 +1,3 @@
-const list = ['Boris Johnson', 'Donald Trump', 'Barack Obama', 'Volodymyr Zelenskyy', 'Angela Merkel']
+const list = ['Boris Johnson', 'Volodymyr Zelenskyy', 'Tom Cruise', 'Taylor Swift', 'Angelina Jolie'];
 
-
-export { list }
+export { list };

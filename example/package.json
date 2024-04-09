@@ -1,30 +1,21 @@
 {
-  "name": "react-avatar-fractal-example",
-  "homepage": ".",
-  "version": "0.0.0",
+  "name": "example",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
-    "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
-    "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
-    "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
-    "react-scripts": "file:../node_modules/react-scripts",
     "react-avatar-fractal": "file:.."
   },
   "devDependencies": {
-    "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "@vitejs/plugin-react": "file:../node_modules/@vitejs/plugin-react",
+    "vite": "file:../node_modules/vite"
+  }
 }
